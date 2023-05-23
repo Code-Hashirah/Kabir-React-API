@@ -15,11 +15,11 @@ useEffect(()=>{
   getProducts() 
 },[] )
   return (
-    <div className=''>
+    <div className='row text-bg-danger'>
         {products.length >0?
          products.map((value,index)=>{
           return(
-            <div key={index} className="product">
+            <div key={index} className="col-6">
               <Home title={value.title} description={value.description} img={value.images[0]} price={value.price} discount={value.discountPercentage}/> 
             </div>
           )

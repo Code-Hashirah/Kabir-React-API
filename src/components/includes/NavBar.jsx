@@ -1,5 +1,6 @@
 import {Link} from "react-router-dom"
-
+import {useState} from 'react'
+import axios from 'axios'
 function NavBar() {
   return (
     <div>
@@ -15,9 +16,8 @@ function NavBar() {
         <li className="nav-item">
             <Link className="nav-link" to='/services'> Services</Link>
         </li>
-
         <li className="nav-item">
-            <Link className="nav-link" to="/single"></Link>
+            {/* <Link className="nav-link" to="/single"></Link> */}
         </li>
       
     </ul>  

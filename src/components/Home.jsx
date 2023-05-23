@@ -1,13 +1,13 @@
 
 function Home(props) {
   return (
-    <div>
+    <div className="">
       
-       <div className="text-bg-danger d-flex">
+       <div className="">
 
-       <div className="col-6">
+       <div className="">
         <h4>Title:{props.title}</h4>
-        <img className="img w-50" src={props.img} alt="" />
+        <img className="img w-50 h-50" src={props.img} alt="" />
         <p>Price:{props.price}</p>
        </div>  
 

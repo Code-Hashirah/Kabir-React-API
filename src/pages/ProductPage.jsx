@@ -12,14 +12,14 @@ function ProductPage() {
     getProducts()
   }, [])
   return (
-    <main className="main">
+    <main className="main row text-bg-danger">
       
     {
       (products.length >0)?
       products.map((value, index)=>{
         return(
-          <div key={index} className="product">
-            <Products title={value.title} description={value.description} img={value.images[0]} price={value.price} discount={value.discountPercentage}/> 
+          <div key={index} className="product col-4">
+            <Products title={value.title} description={value.description} img={value.images[0]} price={value.price} discount={value.discountPercentage} id={value.id}/> 
           </div>
         )
       }):
