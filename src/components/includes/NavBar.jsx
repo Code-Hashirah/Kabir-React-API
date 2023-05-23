@@ -20,7 +20,11 @@ function NavBar() {
             {/* <Link className="nav-link" to="/single"></Link> */}
         </li>
       
-    </ul>  
+    </ul>
+    <form className="d-flex">
+           <input type="text className="className="form-control me-2" placeholder="Search"/>
+          <button className="btn btn-primary" type="button">Search</button>
+        </form>  
         </nav>
     </div>
   )
