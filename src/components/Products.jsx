@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom'
 
 function Products(props) {
-  console.log(props)
+  // console.log(props)
   return (
     <div>
        <h3>{props.title}</h3>

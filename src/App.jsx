@@ -6,6 +6,7 @@ import Index from './pages/Index'
 import ProductPage from './pages/ProductPage'
 import ServicePage from './pages/ServicePage'
 import SinglePage from './pages/SinglePage'
+import SearchPage from "./pages/SearchPage"
 function App() {
  
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/products" element={<ProductPage/>} />
         <Route path="/services" element={<ServicePage/>} />
         <Route path="/single/:productId" element={ <SinglePage/> } />
+        <Route path="/search" element={<SearchPage/>} />
       </Routes>
     </main>
   )

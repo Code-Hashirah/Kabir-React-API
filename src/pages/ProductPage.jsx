@@ -11,6 +11,8 @@ function ProductPage() {
   useEffect(()=>{
     getProducts()
   }, [])
+
+ 
   return (
     <main className="main row text-bg-danger">
       
